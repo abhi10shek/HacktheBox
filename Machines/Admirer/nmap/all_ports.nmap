@@ -1,0 +1,14 @@
+# Nmap 7.80 scan initiated Fri May 29 11:33:33 2020 as: nmap -p- -vvv -o all_ports.nmap 10.10.10.187
+Increasing send delay for 10.10.10.187 from 0 to 5 due to 944 out of 3146 dropped probes since last increase.
+Nmap scan report for 10.10.10.187
+Host is up, received reset ttl 63 (0.31s latency).
+Scanned at 2020-05-29 11:33:33 IST for 1556s
+Not shown: 65532 closed ports
+Reason: 65532 resets
+PORT   STATE SERVICE REASON
+21/tcp open  ftp     syn-ack ttl 63
+22/tcp open  ssh     syn-ack ttl 63
+80/tcp open  http    syn-ack ttl 63
+
+Read data files from: /usr/bin/../share/nmap
+# Nmap done at Fri May 29 11:59:29 2020 -- 1 IP address (1 host up) scanned in 1556.48 seconds

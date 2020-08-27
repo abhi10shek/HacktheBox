@@ -1,0 +1,15 @@
+if (x == "") {
+    alert("Please fill name field. Should not be more than 10 characters");
+    return false;
+  }
+  if (y == "") {
+    alert("Please fill email field. Should not be more than 20 characters");
+    return false;
+  }
+
+exploitation available using sql truncate attack
+https://resources.infosecinstitute.com/sql-truncation-attack/
+
+
+Local File Read via XSS in Dynamically Generated PDF
+https://www.noob.ninja/2017/11/local-file-read-via-xss-in-dynamically.html

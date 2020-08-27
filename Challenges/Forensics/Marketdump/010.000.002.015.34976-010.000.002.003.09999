@@ -1,0 +1,17 @@
+ls -la
+pw
+pwd
+ls -la
+whoami
+wc -l costumers.sql
+ls -la
+head -n2 costumers.sql
+cp costumers.sql /tmp/
+cd /tmp
+ls
+python -m SimpleHTTPServer 9998
+cat costumers.sql
+ls
+rm -f costumers.sql
+ls
+exit

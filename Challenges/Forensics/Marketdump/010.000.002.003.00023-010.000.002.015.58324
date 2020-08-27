@@ -1,0 +1,11 @@
+USER: PASS: Welcome, admin
+
+Here is you're daily stock report!
+
+
+PRODUCT	PRICE			STOCK
+SHIRTS		20$			50
+JEANS		40$			99
+WALLETS	15$			19
+SOCKS		10$			100
+Type exit to exit the program: 

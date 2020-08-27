@@ -1,0 +1,23 @@
+HTTP/1.1 400 Bad Request
+Connection: close
+Content-Language: en_US
+Content-Length: 346
+Content-Type: text/html; charset=utf-8
+Date: Mon, 09 Jul 2018 11:44:59 GMT
+Accept-Encoding: gzip, deflate, identity
+Server: CUPS/2.2 IPP/2.1
+X-Frame-Options: DENY
+Content-Security-Policy: frame-ancestors 'none'
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<HTML>
+<HEAD>
+	<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=utf-8">
+	<TITLE>Bad Request - CUPS v2.2.7</TITLE>
+	<LINK REL="STYLESHEET" TYPE="text/css" HREF="/cups.css">
+</HEAD>
+<BODY>
+<H1>Bad Request</H1>
+<P></P>
+</BODY>
+</HTML>

@@ -1,0 +1,37 @@
+Possible user:
+Waldo
+
+[Bank Account]
+waldo.11
+Ezy]m27}OREc$
+
+[Internal mail account]
+w.cooper@admirer.htb
+fgJr6q#S\W:$P
+
+[FTP account]
+ftpuser
+%n?4Wz}R$tTF7
+
+[Wordpress account]
+admin
+w0rdpr3ss01!
+
+
+DB creds:
+$username = "waldo";
+$password = "Wh3r3_1s_w4ld0?";
+
+$username = "waldo";
+$password = "&<h5b~yK3F#{PaPB&dA}{H>";
+$dbname = "admirerdb";
+
+adminer.php login page
+
+Setup up db to receive dump data
+
+CVE for adminer 4.6.2 
+
+dump index.php will give us the sqlpass..same as ssh for waldo
+
+privesc -> exploit the import library by making a new custom file which acts as the library the file is trying to import

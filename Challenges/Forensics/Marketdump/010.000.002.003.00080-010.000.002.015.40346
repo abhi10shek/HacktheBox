@@ -1,0 +1,19 @@
+HTTP/1.1 200 OK
+Date: Mon, 09 Jul 2018 11:42:58 GMT
+Server: Apache/2.4.29 (Ubuntu)
+Last-Modified: Tue, 19 Jun 2018 09:26:03 GMT
+ETag: "5e-56efb4560df18"
+Accept-Ranges: bytes
+Content-Length: 94
+Vary: Accept-Encoding
+Connection: close
+Content-Type: text/html
+
+<html>
+<head>
+<title>#DataNET</title>
+<center>
+	<pre>#DataNET</pre>
+</center>
+</head>
+</html>

@@ -1,0 +1,8 @@
+PORT     STATE SERVICE      REASON
+445/tcp  open  microsoft-ds syn-ack ttl 127
+4386/tcp open  unknown      syn-ack ttl 127
+
+Read data files from: /usr/bin/../share/nmap
+Nmap done: 1 IP address (1 host up) scanned in 6437.73 seconds
+           Raw packets sent: 131516 (5.787MB) | Rcvd: 611 (29.291KB)
+

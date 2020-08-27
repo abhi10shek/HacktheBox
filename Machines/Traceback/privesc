@@ -1,0 +1,5 @@
+root       4531  0.0  0.0   4628   800 ?        Ss   00:47   0:00 /bin/sh -c sleep 30 ; /bin/cp /var/backups/.update-motd.d/* /etc/update-motd.d/
+
+owned.msg in opt has msg by Xh4H
+
+/etc/motd files have write access

@@ -1,0 +1,5 @@
+GET /nmaplowercheck1531136698 HTTP/1.1
+Host: 10.0.2.3
+User-Agent: Mozilla/5.0 (compatible; Nmap Scripting Engine; https://nmap.org/book/nse.html)
+Connection: close
+

